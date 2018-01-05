@@ -27,6 +27,16 @@ public class Main
         System.out.println("Valeur SommeTableau gauche et droite");
         sommeTableau(TabLongG,TabLongD);
         
+        
+        //C'est pas bon mais ajout de deux instances de la classe coordonnees
+        Coordonnes1 = new Coordonnees = 25;
+        Coordonnes2 = new Coordonnees = 26;
+        
+        System.out.println("Valeur Coordonnes1 " + Coordonnees1);
+        System.out.println("Valeur Coordonnes2 " + Coordonnees2);
+        System.out.println("Valeur Coordonnes1 et 2 ");
+        ajoutCoordonnees(Coordonnees1,Coordonnees2);
+        
  
         
     }
@@ -54,7 +64,7 @@ public class Main
 	  */
 	 
 	 //Fonction qui ne fonctionne pas
-	 public static void ajoutCoordonnees(Coordonnees)
+	 public static void ajoutCoordonnees(Coordonnees,Coordonnees)
 	 {
 		 CoordonneesG = CoordonneesG + CoordonneesD;
 	 }
