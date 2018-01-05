@@ -5,6 +5,7 @@
  */
 public class Main
 {
+
 	public long gauche = 155;
 	public long droite = 200;
 	
@@ -27,5 +28,14 @@ public class Main
 	 {
 		gauche = gauche + droite;
 	 }
+	 
+	 /**
+	  * Somme case 0 tableau
+	  * /
+	 public static sommeTableau()
+	 {
+		TabLongG[0] = TabLongG[0] + TabLongD[0];
+	 }
+	 
 	 
 }
