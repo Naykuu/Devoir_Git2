@@ -5,10 +5,18 @@
  */
 public class Main
 {
+	public long gauche = 155;
+	public long droite = 200;
 	
-	public long gauche;
-	public long droite;
-	  
+	/**
+     * Constructeur d'objets de classe Main
+     */
+    public static void Main(String args[])
+    {
+        System.out.println(gauche);
+        System.out.println(Droite);
+    }
+	
 	/**
 	 * 
 	 * Creation methode statique 
