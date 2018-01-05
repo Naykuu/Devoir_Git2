@@ -13,15 +13,17 @@ public class Main
      */
     public static void Main(String args[])
     {
-        System.out.println(gauche);
-        System.out.println(Droite);
+        System.out.println("Valeur Gauche: " + gauche);
+        System.out.println("Valeur Droite : " + droite);
+        System.out.println("Valeur Somme gauche et droite");
+        ajoutDroiteGauche(gauche, droite);
     }
 	
 	/**
 	 * 
-	 * Creation methode statique 
+	 * Creation methode statique d'addition de 2 long
 	 */
-	 public static void ajoutDroiteGauche()
+	 public static void ajoutDroiteGauche(long g,long d)
 	 {
 		gauche = gauche + droite;
 	 }
