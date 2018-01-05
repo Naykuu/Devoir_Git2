@@ -26,6 +26,7 @@ public class Main
         System.out.println("Valeur Tableau gauche :" + TabLongD);
         System.out.println("Valeur SommeTableau gauche et droite");
         sommeTableau(TabLongG,TabLongD);
+        
  
         
     }
@@ -47,5 +48,17 @@ public class Main
 		TabLongG[0] = TabLongG[0] + TabLongD[0];
 	 }
 	 
+	 /**
+	  * 
+	  *Ajout/somme de deux coordonnees 
+	  */
 	 
-}
+	 //Fonction qui ne fonctionne pas
+	 public static void ajoutCoordonnees(Coordonnees)
+	 {
+		 CoordonneesG = CoordonneesG + CoordonneesD;
+	 }
+		 
+		
+	 
+}//end class
