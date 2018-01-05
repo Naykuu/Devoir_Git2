@@ -23,7 +23,8 @@ public class Coordonnees
 	
 	public void ajouter(Coordonnees Autre)
 	{
-		
+		Xtotal = x1 + x2;
+		Ytotal = y1 + y2;
 	}
 	
 }
