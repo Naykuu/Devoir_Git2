@@ -5,7 +5,9 @@
  */
 public class Main
 {
-
+	
+	public long[] TabLongG = new long[1];
+	public long[] TabLongD = new long[1];
 	public long gauche = 155;
 	public long droite = 200;
 	
@@ -18,6 +20,12 @@ public class Main
         System.out.println("Valeur Droite : " + droite);
         System.out.println("Valeur Somme gauche et droite");
         ajoutDroiteGauche(gauche, droite);
+        TabLongD = 10;
+        TabLongG = 20;
+        System.out.println("Valeur Tableau gauche :" + TabLongG);
+        System.out.println("Valeur Tableau gauche :" + TabLongD);
+ 
+        
     }
 	
 	/**
@@ -31,7 +39,7 @@ public class Main
 	 
 	 /**
 	  * Somme case 0 tableau
-	  * /
+	  */
 	 public static sommeTableau()
 	 {
 		TabLongG[0] = TabLongG[0] + TabLongD[0];
