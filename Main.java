@@ -6,6 +6,9 @@
 public class Main
 {
 	
+	public long gauche;
+	public long droite;
+	  
 	/**
 	 * 
 	 * Creation methode statique 
